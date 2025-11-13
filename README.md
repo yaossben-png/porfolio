@@ -85,9 +85,7 @@
                     </div>
                 </section>
                     <section class="card mt-lg" id="devoir">
-                        <h2>Devoir</h2>
-                        <div class="meta">Veille Technologique — ajoutez ici un PDF présentant votre veille</div>
-
+                        <h2>Devoir</h2>               
                         <div class="file-box" aria-labelledby="veille-title">
                             <div id="veille-title" class="meta">Veille Technologique (PDF)</div>
                             <div class="actions">
