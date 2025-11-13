@@ -1,4 +1,3 @@
-[index.html](https://github.com/user-attachments/files/23520400/index.html)
 <!doctype html>
 <html lang="fr">
 <head>
@@ -48,7 +47,7 @@
     <header>
         <div class="container">
             <div class="hero">
-                    <img class="avatar" src="c:\Users\utilisateur\Desktop\unnamed.png" alt="Photo de Yacine Bensassi" width="120" height="120" loading="lazy" />
+                    <img class="avatar" src="photo yacine.png" alt="Photo de Yacine Bensassi" width="120" height="120" loading="lazy" />
                 <div>
                     <h1>Yacine Bensassi — Étudiant BTS SIO</h1>
                     <p class="lead">Lycée Charles de Foucauld • BTS SIO</p>
@@ -80,8 +79,8 @@
                     <div class="file-box" aria-labelledby="files-title">
                         <div id="files-title" class="meta">Documents téléchargeables</div>
                         <div class="actions">
-                            <a href="c:\Users\utilisateur\Desktop\Curiculum Vitae.pdf" download target="_blank" rel="noopener">Télécharger CV (PDF)</a>
-                            <a href="c:\Users\utilisateur\Desktop\lettre de motivation.pdf" download target="_blank" rel="noopener">Télécharger Lettre (PDF)</a>
+                            <a href="Curiculum Vitae.pdf" download target="_blank" rel="noopener">Télécharger CV (PDF)</a>
+                            <a href="lettre de motivation.pdf" download target="_blank" rel="noopener">Télécharger Lettre (PDF)</a>
                         </div>
                     </div>
                 </section>
@@ -92,14 +91,14 @@
                         <div class="file-box" aria-labelledby="veille-title">
                             <div id="veille-title" class="meta">Veille Technologique (PDF)</div>
                             <div class="actions">
-                                <a href="c:\\Users\\utilisateur\\Desktop\\Veille_Technologique.pdf" download target="_blank" rel="noopener">Télécharger Veille Technologique (PDF)</a>
+                                <a href="veille technologique.pdf" download target="_blank" rel="noopener">Télécharger Veille Technologique (PDF)</a>
                             </div>
                         </div>
 
                         <div class="mt-lg file-box" aria-labelledby="e5-title">
                             <div id="e5-title" class="meta">Épreuve E5 (PDF)</div>
                             <div class="actions">
-                                <a href="c:\\Users\\utilisateur\\Desktop\\Epreuve_E5.pdf" target="_blank" rel="noopener">Ouvrir Épreuve E5</a>
+                                <a href="c:\\Users\\utilisateur\\Desktop\\Epreuve_E5.pdf" target="_blank" rel="noopener">Télécharger Épreuve E5</a>
                             </div>
                         </div>
                     </section>
@@ -152,3 +151,4 @@
     </footer>
 </body>
 </html>
+
