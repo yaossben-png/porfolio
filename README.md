@@ -96,7 +96,7 @@
                         <div class="mt-lg file-box" aria-labelledby="e5-title">
                             <div id="e5-title" class="meta">Épreuve E5 (PDF)</div>
                             <div class="actions">
-                                <a href="c:\\Users\\utilisateur\\Desktop\\Epreuve_E5.pdf" target="_blank" rel="noopener">Télécharger Épreuve E5</a>
+                                <a href="E5_BTS_SIO_style_identique_autoshrink.pptx" target="_blank" rel="noopener">Télécharger Épreuve E5</a>
                             </div>
                         </div>
                     </section>
