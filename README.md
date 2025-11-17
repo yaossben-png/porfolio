@@ -89,7 +89,7 @@
                         <div class="file-box" aria-labelledby="veille-title">
                             <div id="veille-title" class="meta">Cms et Veille Technologique (PDF)</div>
                             <div class="actions">
-                                <a href="pdf powerpoint cms x veille.pdf" download target="_blank" rel="noopener">Télécharger Veille Technologique (PDF)</a>
+                                <a href="pdf powerpoint cms x veille.pdf" download target="_blank" rel="noopener">Télécharger Cms et Veille Technologique (PDF)</a>
                             </div>
                         </div>
 
