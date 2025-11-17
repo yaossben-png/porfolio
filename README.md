@@ -51,7 +51,7 @@
                 <div>
                     <h1>Yacine Bensassi — Étudiant BTS SIO</h1>
                     <p class="lead">Lycée Charles de Foucauld • BTS SIO</p>
-                    <p class="meta">Disponible pour stage / alternance • Email: bensassiyacine276@gmail.com</p>
+                    <p class="meta">Disponible pour stage • Email: bensassiyacine276@gmail.com</p>
                 </div>
             </div>
         </div>
@@ -87,9 +87,9 @@
                     <section class="card mt-lg" id="devoir">
                         <h2>Devoir</h2>               
                         <div class="file-box" aria-labelledby="veille-title">
-                            <div id="veille-title" class="meta">Veille Technologique (PDF)</div>
+                            <div id="veille-title" class="meta">Cms et Veille Technologique (PDF)</div>
                             <div class="actions">
-                                <a href="veille technologique.pdf" download target="_blank" rel="noopener">Télécharger Veille Technologique (PDF)</a>
+                                <a href="pdf powerpoint cms x veille.pdf" download target="_blank" rel="noopener">Télécharger Veille Technologique (PDF)</a>
                             </div>
                         </div>
 
