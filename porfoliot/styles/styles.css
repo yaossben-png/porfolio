@@ -1,0 +1,729 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+}
+.slider {
+  width: 30%;
+  height: 100vh;
+ background:linear-gradient(rgb(40, 40, 40),rgb(29, 29, 29));
+ position:fixed;
+ top: 0;
+left:0;
+}
+.slider-background {
+    width: 43%;
+    height: 30vh;
+    margin: 10px;
+}
+.slider-content{
+    position:absolute ;
+    top:40%;
+    left:2%;
+    text-align: left;
+}
+h1{color:aliceblue; margin: 10px;}
+.slider-content p{
+color:aliceblue;
+margin :10px;
+}
+h2{
+    color: aliceblue;
+    font-size: 1.25rem;
+    margin: 10px;
+}
+.content{
+    margin-left: 30%;
+    min-height: 100%;
+    background: #383737;
+    width: 70%;
+    height: 100vh
+}
+
+.btcompetence button{
+     margin: 20px;
+    background-color: rgb(24, 23, 23);
+    width: 200px;
+    height : 75Px;
+    border: none;
+    border-radius:20px;
+    cursor: pointer;
+    transition: filter 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+}
+.btcompetence button:hover{
+    background-color: rgb(36, 35, 35);
+   box-shadow: 0px 15px 25px rgba(255, 255, 255, 0.4);
+}
+.btcompetence button span{
+  color: aliceblue;  font-size: 1.25rem;
+    font-weight: bold;
+}
+.btcompetence button p{
+    color: aliceblue;
+}
+.btparcours button{
+    margin: 20px;
+    background-color: rgb(24, 23, 23);
+    width: max-content;
+    height : 75Px;
+    border: none;
+    border-radius:20px;
+    cursor: pointer;
+    padding: 10px;
+    transition: filter 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+}
+.btparcours button:hover{
+    background-color: rgb(36, 35, 35);
+   box-shadow: 0px 15px 25px rgba(255, 255, 255, 0.4);
+}
+.btparcours button span{
+ color: aliceblue;  font-size: 1.25rem;
+    font-weight: bold;
+}
+.btparcours button p{
+    color: aliceblue;
+}
+.btdocumentation button{
+ margin: 20px;
+    background-color: rgb(24, 23, 23);
+    width: 200px;
+    height : 75Px;
+    border: none;
+    border-radius:20px;
+    cursor: pointer;
+    transition: filter 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+}
+.btdocumentation button:hover{
+    background-color: rgb(36, 35, 35);
+   box-shadow: 0px 15px 25px rgba(255, 255, 255, 0.4);
+}
+.btdocumentation button p{
+    color: aliceblue;
+}
+.btdocumentation button span{
+    color: aliceblue;  font-size: 1.25rem;
+    font-weight: bold;
+}
+.btprojets button{
+    margin: 20px;
+    background-color: rgb(24, 23, 23);
+    width: 200px;
+    height : 75Px;
+    border: none;
+    border-radius:20px;
+    cursor: pointer;
+    transition: filter 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+}
+.btprojets button:hover{
+    background-color: rgb(36, 35, 35);
+   box-shadow: 0px 15px 25px rgba(255, 255, 255, 0.4);
+}
+.btprojets button p{
+    color: aliceblue;
+}
+.btprojets span{
+    color: aliceblue;  font-size: 1.25rem;
+    font-weight: bold;
+}
+H3{
+    color: aliceblue;
+   text-align: center;
+   margin-bottom: 100px;
+   font-size: 1.5rem;
+}
+.btlettre button{
+    margin: 15px;
+    background-color: rgb(24, 23, 23);
+    width: 100%;
+    height : 5vh;
+    border: none;
+    border-radius:15px;
+    cursor: pointer;
+    transition: filter 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+}
+.btlettre button:hover{
+    background-color: rgb(36, 35, 35);
+   box-shadow: 0px 15px 25px rgba(255, 255, 255, 0.4);
+}
+.btlettre button a{
+    color: aliceblue;
+}
+.btcv button{
+    margin: 0px;
+    background-color: rgb(24, 23, 23);
+    width: 120%;
+    height : 5vh;
+    border: none;
+    border-radius:15px;
+    cursor: pointer;
+    transition: filter 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+}
+.btcv button:hover{
+    background-color: rgb(36, 35, 35);
+   box-shadow: 0px 15px 25px rgba(255, 255, 255, 0.4);
+}
+.btcv button a{
+    color: aliceblue;
+}
+.btcontact button{
+    MARGIN: 20px;
+    background-color: rgb(24, 23, 23);
+    width: 100%;
+    height : 5vh;
+    border: none;
+    border-radius:15px;
+    cursor: pointer;
+    transition: filter 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+}
+.btcontact button:hover{    
+    background-color: rgb(36, 35, 35);
+    box-shadow: 0px 15px 25px rgba(255, 255, 255, 0.4);
+}
+.btcontact button span{
+    color: aliceblue;
+}
+.btslider{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.btcontent{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+.competence{  
+     margin-left: 30%;
+    min-height: 100%;
+    background: #383737;
+    width: 70%;
+    height: 100vh
+}
+.imgcompetence{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    margin-bottom: px
+}
+.imghtml img{
+    MARGIN: 20px;
+    width: 130px;
+    height : 130px;
+    border: none;
+    border-radius:15px;
+    }
+.imgcss img{
+    MARGIN: 20px;
+    width: 130px;
+    height : 130px;
+    border: none;
+    border-radius:15px;       
+}
+.imgjs img{
+    MARGIN: 20px;
+    width: 130px;
+    height : 130px;
+    border: none;
+    border-radius:15px;
+    }
+    .imgphp img{
+       MARGIN: 20px;
+    width: 130px;
+    height : 130px;
+    border: none;
+    border-radius:15px;
+    }
+.imgmysql img{
+       MARGIN: 20px;
+    width: 130px;
+    height : 130px;
+    border: none;
+    border-radius:15px;
+    }
+.imgjava img{
+MARGIN: 20px;
+width: 130px;
+height : 130px;
+border: none;
+border-radius:15px;
+    }
+.imgpython img{
+MARGIN: 20px;
+width: 130px;
+height : 130px;
+border: none;
+border-radius:15px;
+    }
+.imghtml{        
+background-color: rgb(24, 23, 23);
+border: none;
+border-radius:15px;
+cursor: pointer;
+transition: filter 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+height: 160px;
+}
+.imgcss{
+background-color: rgb(24, 23, 23);
+border: none;
+border-radius:15px;
+cursor: pointer;
+transition: filter 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+height: 160px;
+}
+.imgjs{
+    background-color: rgb(24, 23, 23);
+border: none;
+border-radius:15px;
+cursor: pointer;
+transition: filter 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+height: 160px;
+}
+.imgphp{
+    background-color: rgb(24, 23, 23);
+border: none;
+border-radius:15px;
+cursor: pointer;
+transition: filter 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+height: 160px;
+}
+.imgmysql{
+    background-color: rgb(24, 23, 23);
+border: none;
+border-radius:15px;
+cursor: pointer;
+transition: filter 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+height: 160px;
+}
+.imgjava{
+    background-color: rgb(24, 23, 23);
+border: none;
+border-radius:15px;
+cursor: pointer;
+transition: filter 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+height: 160px;
+}
+.imgpython{
+background-color: rgb(24, 23, 23);
+border: none;
+border-radius:15px;
+cursor: pointer;
+transition: fiter 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+height: 160px;
+}
+.imghtml:hover{
+    background-color: rgb(36, 35, 35);
+   box-shadow: 0px 15px 25px rgba(255, 255, 255, 0.4);
+}
+.imgcss:hover{
+    background-color: rgb(36, 35, 35);
+   box-shadow: 0px 15px 25px rgba(255, 255, 255, 0.4);
+}
+.imgjs:hover{
+    background-color: rgb(36, 35, 35);
+   box-shadow: 0px 15px 25px rgba(255, 255, 255, 0.4);
+}
+.imgphp:hover{
+    background-color: rgb(36, 35, 35);
+   box-shadow: 0px 15px 25px rgba(255, 255, 255, 0.4);
+}
+.imgmysql:hover{
+    background-color: rgb(36, 35, 35);
+   box-shadow: 0px 15px 25px rgba(255, 255, 255, 0.4);
+}
+.imgjava:hover{
+    background-color: rgb(36, 35, 35);
+   box-shadow: 0px 15px 25px rgba(255, 255, 255, 0.4);
+}
+.imgpython:hover{
+    background-color: rgb(36, 35, 35);
+   box-shadow: 0px 15px 25px rgba(255, 255, 255, 0.4);
+}
+
+.parcours-formation{
+    margin-left: 30%;
+    min-height: 100%;
+    background: #383737;
+    width: 70%;
+    height: 100vh
+}
+.parcours-formation span{
+color: aliceblue;
+line-height:2,3em;
+}
+.parcours-formation p{
+color: aliceblue;
+}
+h4{
+color: aliceblue;
+
+
+}
+
+.tbpf{  
+   background-color: rgb(24, 23, 23);
+border: none;
+border-radius:15px;
+height: max-content;
+width: max-content;
+box-sizing:border-box ;
+    padding: 10px;
+    margin:0 auto;
+    cursor: pointer;
+transition: fiter 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+}
+.tbpf:hover{
+    background-color: rgb(36, 35, 35);
+   box-shadow: 0px 15px 25px rgba(255, 255, 255, 0.4);
+}
+.bac{
+    background-color: rgb(48, 47, 47);
+border: none;
+border-radius:15px;
+height: max-content;
+width: max-content;
+box-sizing:border-box ;
+    padding: 10px;
+    cursor: pointer;
+transition: fiter 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+
+}
+.bts{
+background-color: rgb(48, 47, 47);
+border: none;
+border-radius:15px;
+height: max-content;
+width: max-content;
+box-sizing:border-box ;
+padding: 10px;
+margin-top:15px ;
+margin-bottom:15px ;
+cursor: pointer;
+transition: fiter 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+
+}
+.stage{
+    background-color: rgb(48, 47, 47);
+    border: none;
+    border-radius:15px;
+    height: max-content;
+    width: max-content;
+    box-sizing:border-box ;
+    padding: 10px;
+    cursor: pointer;
+    transition: fiter 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+}
+
+.bac:hover{
+    background-color: rgb(60,59 , 59);
+    box-shadow: 0px 15px 25px rgba(255, 255, 255, 0.4);
+}
+.stage:hover{
+    background-color: rgb(60,59 , 59);
+    box-shadow: 0px 15px 25px rgba(255, 255, 255, 0.4);
+}
+.bts:hover{
+    background-color: rgb(60,59 , 59);
+    box-shadow: 0px 15px 25px rgba(255, 255, 255, 0.4);
+}
+.projet{
+    margin-left: 30%;
+    min-height: 100%;
+    background: #383737;
+    width: 70%;
+    height: 100vh
+}
+.prgame img{
+    MARGIN: 20px;
+    width: 150px;
+    height : 200px;
+    border: none; 
+}
+.prsite img{
+    MARGIN: 20px;
+    width: 150px;
+    height : 200px;
+    border: none;
+}
+.imgprojet{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+}
+.prgame, .prsite {
+    position: relative;
+    background-color: rgb(48, 47, 47);
+    border: none;
+    border-radius:15px;
+    height: max-content;
+    width: max-content;
+    box-sizing:border-box ;
+    padding: 10px;
+    cursor: pointer;
+     transition: fiter 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+}
+
+.prgame p, .prsite p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    color:aliceblue;
+    font-size:1.4rem ;
+    font-weight:500;
+}
+.prgame:hover{
+filter: brightness(0.8);
+    background-color: rgb(36, 35, 35);
+   box-shadow: 0px 15px 25px rgba(255, 255, 255, 0.4);
+}
+.prsite:hover{
+filter: brightness(0.8);
+    background-color: rgb(36, 35, 35);
+   box-shadow: 0px 15px 25px rgba(255, 255, 255, 0.4);
+}
+.documentation{
+    margin-left: 30%;
+    min-height: 100%;
+    background: #383737;
+    width: 70%;
+    height: 100vh
+}
+.ctdoc{
+    position: relative;
+background-color: rgb(24, 23, 23);
+justify-content: center;
+align-items: center;
+flex-wrap: wrap;
+display: flex;
+margin:0 auto;
+border: none;
+border-radius:15px;
+height: max-content;
+width: max-content;
+box-sizing:border-box ;
+padding: 10px;
+cursor: pointer;
+gap: 30px;
+transition: fiter 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+margin-bottom: 100px;
+}
+.E5{
+     position: relative;
+  justify-content: center;
+align-items: center;
+flex-wrap: wrap;
+display: flex;
+margin:0 auto;
+    background-color: rgb(48, 47, 47);
+    border: none;
+    border-radius:15px;
+    height: max-content;
+    width: max-content;
+    box-sizing:border-box ;
+    padding: 10px;
+    cursor: pointer;
+     transition: fiter 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+}
+.veille{
+     position: relative;
+  justify-content: center;
+align-items: center;
+flex-wrap: wrap;
+display: flex;
+margin:0 auto;
+    background-color: rgb(48, 47, 47);
+    border: none;
+    border-radius:15px;
+    height: max-content;
+    width: max-content;
+    box-sizing:border-box ;
+    padding: 10px;
+    cursor: pointer;
+     transition: fiter 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+}
+.rapportstage{
+     position: relative;
+  justify-content: center;
+align-items: center;
+flex-wrap: wrap;
+display: flex;
+margin:0 auto;
+    background-color: rgb(48, 47, 47);
+    border: none;
+    border-radius:15px;
+    height: max-content;
+    width: max-content;
+    box-sizing:border-box ;
+    padding: 10px;
+    cursor: pointer;
+     transition: fiter 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+}
+.ctdoc a{
+     position: relative;
+    margin: 0;
+    color:aliceblue;  
+}
+.ctdoc:hover{
+background-color: rgb(36, 35, 35);
+box-shadow: 0px 15px 25px rgba(255, 255, 255, 0.4);}
+.E5:hover{
+    background-color: rgb(60,59 , 59);
+    box-shadow: 0px 15px 25px rgba(255, 255, 255, 0.4);}
+    .veille:hover{
+    background-color: rgb(60,59 , 59);
+    box-shadow: 0px 15px 25px rgba(255, 255, 255, 0.4);}
+    .rapportstage:hover{
+    background-color: rgb(60,59 , 59);
+    box-shadow: 0px 15px 25px rgba(255, 255, 255, 0.4);}
+.incontact{
+position: relative;
+background-color: rgb(24, 23, 23);
+justify-content: center;
+align-items: center;
+flex-wrap: wrap;
+display: flex;
+margin:0 auto;
+border: none;
+border-radius:15px;
+height: max-content;
+width: max-content;
+box-sizing:border-box ;
+padding: 10px;
+cursor: pointer;
+gap: 30px;
+transition: fiter 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+}
+
+.mail p, .lkd p, .num p{
+    position: relative;
+    margin: 0;
+    color:aliceblue;
+    margin-right:5px ;
+}
+.mail a, .lkd a, .num a{
+     position: relative;
+    margin: 0;
+    color:aliceblue;  
+}
+.num {
+  position: relative;
+  justify-content: center;
+align-items: center;
+flex-wrap: wrap;
+display: flex;
+margin:0 auto;
+    background-color: rgb(48, 47, 47);
+    border: none;
+    border-radius:15px;
+    height: max-content;
+    width: max-content;
+    box-sizing:border-box ;
+    padding: 10px;
+    cursor: pointer;
+     transition: fiter 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+}
+.mail{
+  position: relative;
+  justify-content: center;
+align-items: center;
+flex-wrap: wrap;
+display: flex;
+margin:0 auto;
+    background-color: rgb(48, 47, 47);
+    border: none;
+    border-radius:15px;
+    height: max-content;
+    width: max-content;
+    box-sizing:border-box ;
+    padding: 10px;
+    cursor: pointer;
+     transition: fiter 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+}
+.lkd{
+    justify-content: center;
+align-items: center;
+flex-wrap: wrap;
+display: flex;
+margin:0 auto;
+  position: relative;
+    background-color: rgb(48, 47, 47);
+    border: none;
+    border-radius:15px;
+    height: max-content;
+    width: max-content;
+    box-sizing:border-box ;
+    padding: 10px;
+    cursor: pointer;
+     transition: fiter 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+}
+.num:hover{
+    background-color: rgb(60,59 , 59);
+    box-shadow: 0px 15px 25px rgba(255, 255, 255, 0.4);}
+    .mail:hover{
+    background-color: rgb(60,59 , 59);
+    box-shadow: 0px 15px 25px rgba(255, 255, 255, 0.4);}
+    .lkd:hover{
+    background-color: rgb(60,59 , 59);
+    box-shadow: 0px 15px 25px rgba(255, 255, 255, 0.4);}
+    .incontact:hover{
+    background-color: rgb(36, 35, 35);
+    box-shadow: 0px 15px 25px rgba(255, 255, 255, 0.4);}
+.btup{
+    background-color: rgb(24, 23, 23);
+    border-radius: 50%;
+    bottom: 30px;
+    right: 30px;
+    box-sizing: border-box;
+    border:none;
+    padding: 10px;
+    height: 60px; ;
+    width: 60px;
+    cursor: pointer;
+    transition: fiter 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+position:fixed;
+justiFy-content: center;
+align-items: center;
+flex-wrap: wrap;
+display: flex;
+margin:0 auto;
+opacity: 40%;
+}
+.btup img{
+    padding:0px ;
+    height: 40px;
+    width:40px;
+    border-width:30px;
+}
+#bthaut{
+    border:none;
+    background-color:transparent ; 
+}
+.btup:hover{
+opacity:1.4 ;
+background-color: rgb(36, 35, 35);
+box-shadow: 0px 15px 25px rgba(255, 255, 255, 0.4);}
+.contact span{
+    justify-content: center;
+align-items: center;
+flex-wrap: wrap;
+display: flex;
+    color: grey;
+    margin-top:100px ;
+}
