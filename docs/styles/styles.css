@@ -727,3 +727,43 @@ display: flex;
     color: grey;
     margin-top:100px ;
 }
+@media (max-width: 768px) {
+  .slider {
+    position: static;
+    width: 100%;
+    height: auto;
+    padding-bottom: 30px;
+  }
+
+  .slider-content {
+    position: static;
+    text-align: center;
+    padding: 20px;
+  }
+
+  .slider-background {
+    width: 60%;
+    margin: 20px auto;
+  }
+
+  .content,
+  .competence,
+  .parcours-formation,
+  .projet,
+  .documentation {
+    margin-left: 0;
+    width: 100%;
+    height: auto;
+    min-height: auto;
+    padding-bottom: 40px;
+  }
+
+  .btcontent,
+  .btslider {
+    justify-content: center;
+  }
+
+  .btcv button {
+    width: 100%;
+  }
+}
